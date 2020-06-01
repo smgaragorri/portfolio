@@ -1,0 +1,17 @@
+[
+  {
+    "title": "técnicas",
+    "skills": ["javascript", "html", "sass", "react", "react-router", "redux"],
+    "img": ""
+  },
+  {
+    "title": "soft skills",
+    "skills": ["scrum", "agile", "teamwork", "trabajo remoto"],
+    "img": ""
+  },
+  {
+    "title": "comunicativas",
+    "skills": ["zoom", "trello", "github", "Live Share", "Slack"],
+    "img": ""
+  }
+]

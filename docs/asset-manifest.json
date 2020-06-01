@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "./static/css/main.8886ae0b.chunk.css",
+    "main.js": "./static/js/main.86b58e78.chunk.js",
+    "main.js.map": "./static/js/main.86b58e78.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.3207836a.js",
+    "runtime-main.js.map": "./static/js/runtime-main.3207836a.js.map",
+    "static/js/2.0ba68f57.chunk.js": "./static/js/2.0ba68f57.chunk.js",
+    "static/js/2.0ba68f57.chunk.js.map": "./static/js/2.0ba68f57.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.83c4794869bef0235d707aae147685d3.js": "./precache-manifest.83c4794869bef0235d707aae147685d3.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.8886ae0b.chunk.css.map": "./static/css/main.8886ae0b.chunk.css.map",
+    "static/js/2.0ba68f57.chunk.js.LICENSE.txt": "./static/js/2.0ba68f57.chunk.js.LICENSE.txt",
+    "static/media/CV-Sara-Martin-Garagorri.pdf": "./static/media/CV-Sara-Martin-Garagorri.fb294b86.pdf",
+    "static/media/cool-coders.png": "./static/media/cool-coders.88401ba9.png",
+    "static/media/debugirls.png": "./static/media/debugirls.ea1d0e93.png",
+    "static/media/futurama.png": "./static/media/futurama.5a58abbd.png",
+    "static/media/koronahoot.png": "./static/media/koronahoot.870ade32.png",
+    "static/media/maquetacion.png": "./static/media/maquetacion.d63a7094.png",
+    "static/media/portfolio.png": "./static/media/portfolio.a6410a18.png",
+    "static/media/profile.jpeg": "./static/media/profile.81816275.jpeg",
+    "static/media/rick-morty.png": "./static/media/rick-morty.897b9004.png",
+    "static/media/rosetta.png": "./static/media/rosetta.587e8104.png",
+    "static/media/series-searcher.png": "./static/media/series-searcher.5ad5d44b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3207836a.js",
+    "static/js/2.0ba68f57.chunk.js",
+    "static/css/main.8886ae0b.chunk.css",
+    "static/js/main.86b58e78.chunk.js"
+  ]
+}

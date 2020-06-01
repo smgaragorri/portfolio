@@ -1,0 +1,148 @@
+.nav-social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 30px;
+  width: 100vw;
+  position: fixed;
+  z-index: 5;
+}
+
+.icons {
+  font-size: 35px;
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px 10px 15px;
+  margin-left: 10px;
+}
+
+.navigator {
+  &-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+  }
+
+  &-section {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-bottom: 2px;
+    &-container {
+      display: flex;
+      justify-items: flex-start;
+      padding: 15px;
+    }
+  }
+}
+
+.navigator-social-container {
+  display: flex;
+  margin-right: 30px;
+}
+
+.fa-chevron {
+  &-left {
+    font-size: 14px;
+    margin: 0 15px 0 15px;
+  }
+  &-right {
+    font-size: 14px;
+    margin: 0 15px 0 15px;
+  }
+}
+
+@media all and (max-width: 1200px) and (min-width: 768px) {
+  .nav-social-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navigator {
+    &-container {
+      margin-left: 0px;
+      padding: 5px 0 5px 0;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &-section {
+      &-container {
+        display: flex;
+        justify-items: flex-start;
+        padding: 5px;
+      }
+    }
+  }
+  .icons {
+    font-size: 28px;
+    padding: 10px;
+  }
+
+  .navigator-social-container {
+    margin-right: 0px;
+    padding-bottom: 20px;
+  }
+
+  .fa-chevron {
+    &-left {
+      font-size: 12px;
+      margin: 0 5px 0 5px;
+    }
+    &-right {
+      font-size: 12px;
+      margin: 0 5px 0 5px;
+    }
+  }
+}
+
+@media all and (max-width: 768px) {
+  .nav-social-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .icons {
+    font-size: 24px;
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .navigator {
+    &-container {
+      margin-left: 0px;
+      padding: 5px 0 5px 0;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &-section {
+      font-size: 16px;
+      &-container {
+        display: flex;
+        justify-items: flex-start;
+        padding: 10px;
+      }
+    }
+  }
+
+  .navigator-social-container {
+    margin-right: 0px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .fa-chevron {
+    &-left {
+      font-size: 14px;
+      margin: 0 5px 0 5px;
+    }
+    &-right {
+      font-size: 14px;
+      margin: 0 5px 0 5px;
+    }
+  }
+}

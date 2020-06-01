@@ -1,0 +1,167 @@
+.projects {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  &-page {
+    @include page;
+    background-color: $main-pink;
+    height: max-content;
+  }
+  &-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    overflow: visible;
+    margin-bottom: 200px;
+  }
+  &-element {
+    width: 400px;
+    height: 440px;
+    padding: 20px;
+    margin: 0 30px 70px 30px;
+    @include boxShadow;
+    background-color: white;
+  }
+  &-title {
+    @include section-title;
+    margin-bottom: 50px;
+    margin-top: 92px;
+  }
+}
+.project {
+  &-container {
+    &-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  &-name,
+  &-date,
+  &-tag,
+  &-author {
+    font-family: $text-font;
+    font-size: 18px;
+  }
+  &-tag {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: max-content;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    &-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &-react {
+      background-color: rgb(186, 223, 238);
+    }
+    &-javascript {
+      background-color: rgb(253, 247, 156);
+    }
+    &-sass {
+      background-color: rgb(243, 202, 243);
+    }
+    &-redux {
+      background-color: rgba(196, 182, 228, 0.603);
+    }
+    &-react-router {
+      background-color: rgba(243, 156, 156, 0.63);
+    }
+    &-html {
+      background-color: rgba(250, 219, 162, 0.795);
+    }
+  }
+  &-date {
+    &-separate {
+      margin: 0 5px 0 5px;
+      font-size: 14px;
+    }
+  }
+  &-author {
+    &-individual {
+      padding: 5px;
+      background-color: lightblue;
+      font-size: 18px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    &-grupal {
+      padding: 5px;
+      background-color: rgb(201, 241, 185);
+      font-size: 18px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+  }
+  &-img {
+    border: 1px solid rgb(204, 204, 204);
+    width: 400px;
+    height: 225px;
+    margin: 20px 0 20px 0;
+  }
+  &-link {
+    font-size: 24px;
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    object-fit: cover;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .projects {
+    &-page {
+      width: 100%;
+    }
+    &-element {
+      width: 220px;
+      height: 340px;
+      padding: 10px;
+      margin: 30px 30px 30px 30px;
+    }
+    &-title {
+      @include section-title;
+      margin-top: 103px;
+      @media all and (max-width: 350px) {
+        margin-top: 73px;
+      }
+    }
+  }
+  .project {
+    &-name,
+    &-date,
+    &-tag,
+    &-author {
+      font-family: $text-font;
+      font-size: 14px;
+    }
+    &-tag {
+      font-size: 12px;
+    }
+    &-date {
+      &-separate {
+        font-size: 12px;
+      }
+    }
+    &-author {
+      &-individual {
+        font-size: 16px;
+      }
+      &-grupal {
+        font-size: 16px;
+      }
+    }
+    &-img {
+      width: 220px;
+      height: 123px;
+    }
+    &-link {
+      font-size: 20px;
+    }
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Rick & Morty - Buscador de personajes",
+    "url": "https://github.com/smgaragorri/Rick-and-Morty--Buscador-de-personajes",
+    "website": "https://smgaragorri.github.io/Rick-and-Morty--Buscador-de-personajes/#/",
+    "img": "rick-morty.png",
+    "tags": ["react", "react-router", "javascript", "sass"],
+    "month": "ABR",
+    "year": "2020",
+    "author": "individual"
+  },
+  {
+    "name": "KoronaHoot!",
+    "url": "https://github.com/smgaragorri/KoronaHoot",
+    "website": "https://smgaragorri.github.io/KoronaHoot/",
+    "img": "koronahoot.png",
+    "tags": ["javascript", "sass", "local storage"],
+    "month": "MAR",
+    "year": "2020",
+    "author": "individual"
+  },
+  {
+    "name": "Portfolio",
+    "url": "https://github.com/smgaragorri/portfolio-smgaragorri",
+    "website": "https://github.com/smgaragorri/portfolio-smgaragorri",
+    "img": "portfolio.png",
+    "tags": ["react", "react-router", "javascript", "sass"],
+    "month": "MAY",
+    "year": "2020",
+    "author": "individual"
+  },
+  {
+    "name": "Buscador de series",
+    "url": "https://github.com/smgaragorri/Buscador-de-series",
+    "website": "https://smgaragorri.github.io/Buscador-de-series/",
+    "img": "series-searcher.png",
+    "tags": ["javascript", "sass", "dom avanzado"],
+    "month": "MAR",
+    "year": "2020",
+    "author": "individual"
+  },
+  {
+    "name": "Maquetacion con SASS y HTML",
+    "url": "https://github.com/smgaragorri/Maquetacion-SASS-y-HTML",
+    "website": "https://smgaragorri.github.io/Maquetacion-SASS-y-HTML/",
+    "img": "maquetacion.png",
+    "tags": ["sass", "html"],
+    "month": "FEB",
+    "year": "2020",
+    "author": "individual"
+  },
+  {
+    "name": "Migración a React - Código heredado",
+    "url": "https://github.com/smgaragorri/project-promo-i-module-2-team-4-morning",
+    "website": "http://beta.adalab.es/project-promo-i-module-2-team-4-morning/",
+    "img": "debugirls.png",
+    "tags": ["react", "react-router", "javascript", "sass"],
+    "month": "ABR",
+    "year": "2020",
+    "author": "grupal"
+  },
+  {
+    "name": "Awesome Profile Cards",
+    "url": "https://github.com/smgaragorri/project-promo-i-module-2-team-4-morning",
+    "website": "http://beta.adalab.es/project-promo-i-module-2-team-4-morning/",
+    "img": "rosetta.png",
+    "tags": ["javascript", "sass", "api", "local storage"],
+    "month": "MAR",
+    "year": "2020",
+    "author": "grupal"
+  },
+  {
+    "name": "The Cool Coders - Página de contacto",
+    "url": "https://github.com/smgaragorri/project-promo-i-module-1-team-3-morning",
+    "website": "http://beta.adalab.es/project-promo-i-module-1-team-3-morning/",
+    "img": "cool-coders.png",
+    "tags": ["sass", "html"],
+    "month": "FEB",
+    "year": "2020",
+    "author": "grupal"
+  }
+]

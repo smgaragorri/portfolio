@@ -1,0 +1,118 @@
+.App {
+  background: #abdbdf;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.landing {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  &-page {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-polygon {
+    width: 100%;
+    height: 100%;
+    &-yellow {
+      position: absolute;
+      z-index: 2;
+      width: 0;
+      height: 0;
+      border-left: 1600px solid $main-yellow;
+      border-top: 0px solid transparent;
+      border-bottom: 750px solid transparent;
+    }
+    &-pink {
+      position: absolute;
+      z-index: 1;
+      width: 13%;
+      height: 0px;
+      border-right: 1200px solid transparent;
+      border-left: 0px solid transparent;
+      border-bottom: 100vh solid #fcc8ba;
+    }
+  }
+  &-title-container {
+    width: 800px;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    padding: 50px 50px 60px 50px;
+    flex-direction: column;
+    text-transform: capitalize;
+    color: #82e8f0;
+    background-color: #323232;
+    text-align: center;
+  }
+  &-subtitle {
+    font-size: 40px;
+    color: #fdd4c8;
+    letter-spacing: 3px;
+    font-family: $font;
+    font-weight: 400;
+    margin-top: 30px;
+  }
+  &-title {
+    font-family: $font;
+    font-weight: 400;
+    font-size: 125px;
+    letter-spacing: 6px;
+  }
+}
+
+@media all and (max-width: 1200px) and (min-width: 768px) {
+  .landing {
+    &-polygon {
+      width: 100%;
+      height: 100%;
+      &-yellow {
+        border-left: 1200px solid $main-yellow;
+      }
+      &-pink {
+        border-right: 600px solid transparent;
+        border-bottom: 100vh solid #fcc8ba;
+      }
+    }
+    &-title-container {
+      width: 500px;
+    }
+    &-subtitle {
+      font-size: 35px;
+    }
+    &-title {
+      font-size: 80px;
+    }
+  }
+}
+
+@media all and (max-width: 768px) {
+  .landing {
+    &-polygon {
+      width: 100%;
+      height: 100%;
+      &-yellow {
+        border-left: 768px solid $main-yellow;
+      }
+      &-pink {
+        border-right: 480px solid transparent;
+        border-bottom: 100vh solid #fcc8ba;
+      }
+    }
+    &-title-container {
+      width: 230px;
+      padding: 20px;
+    }
+    &-subtitle {
+      font-size: 26px;
+    }
+    &-title {
+      font-size: 30px;
+    }
+  }
+}
