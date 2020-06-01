@@ -12,13 +12,12 @@
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
+    overflow-y: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   &-polygon {
-    width: 100%;
-    height: 100%;
     &-yellow {
       position: absolute;
       z-index: 2;
@@ -31,7 +30,7 @@
     &-pink {
       position: absolute;
       z-index: 1;
-      width: 13%;
+      width: 0px;
       height: 0px;
       border-right: 1200px solid transparent;
       border-left: 0px solid transparent;
@@ -69,8 +68,6 @@
 @media all and (max-width: 1200px) and (min-width: 768px) {
   .landing {
     &-polygon {
-      width: 100%;
-      height: 100%;
       &-yellow {
         border-left: 1200px solid $main-yellow;
       }
@@ -94,8 +91,6 @@
 @media all and (max-width: 768px) {
   .landing {
     &-polygon {
-      width: 100%;
-      height: 100%;
       &-yellow {
         border-left: 768px solid $main-yellow;
       }
