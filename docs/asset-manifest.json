@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.244d4603.chunk.css",
+    "main.css": "./static/css/main.c68f16a5.chunk.css",
     "main.js": "./static/js/main.927d2eb8.chunk.js",
     "main.js.map": "./static/js/main.927d2eb8.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.3207836a.js",
@@ -8,9 +8,9 @@
     "static/js/2.0ba68f57.chunk.js": "./static/js/2.0ba68f57.chunk.js",
     "static/js/2.0ba68f57.chunk.js.map": "./static/js/2.0ba68f57.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.8aca4cf8c65f142d63f6499091b6d5e4.js": "./precache-manifest.8aca4cf8c65f142d63f6499091b6d5e4.js",
+    "precache-manifest.7457ef819374edfe5dd6af6a480098c7.js": "./precache-manifest.7457ef819374edfe5dd6af6a480098c7.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.244d4603.chunk.css.map": "./static/css/main.244d4603.chunk.css.map",
+    "static/css/main.c68f16a5.chunk.css.map": "./static/css/main.c68f16a5.chunk.css.map",
     "static/js/2.0ba68f57.chunk.js.LICENSE.txt": "./static/js/2.0ba68f57.chunk.js.LICENSE.txt",
     "static/media/CV-Sara-Martin-Garagorri.pdf": "./static/media/CV-Sara-Martin-Garagorri.9e640fa7.pdf",
     "static/media/cool-coders.png": "./static/media/cool-coders.88401ba9.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.3207836a.js",
     "static/js/2.0ba68f57.chunk.js",
-    "static/css/main.244d4603.chunk.css",
+    "static/css/main.c68f16a5.chunk.css",
     "static/js/main.927d2eb8.chunk.js"
   ]
 }

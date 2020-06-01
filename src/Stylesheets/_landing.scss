@@ -5,8 +5,6 @@
   height: 100vh;
 }
 .landing {
-  overflow-x: hidden;
-  overflow-y: hidden;
   &-page {
     width: 100vw;
     height: 100vh;
@@ -18,31 +16,27 @@
   }
   &-polygon {
     &-yellow {
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: absolute;
+      position: fixed;
       z-index: 2;
       width: 0;
       height: 0;
-      border-left: 1600px solid $main-yellow;
+      border-left: 2100px solid $main-yellow;
       border-top: 0px solid transparent;
-      border-bottom: 750px solid transparent;
+      border-bottom: 1000px solid transparent;
     }
     &-pink {
-      overflow-x: hidden;
-      overflow-y: hidden;
-      position: absolute;
+      position: fixed;
       z-index: 1;
       width: 0px;
       height: 0px;
-      border-right: 1200px solid transparent;
+      border-right: 1600px solid transparent;
       border-left: 0px solid transparent;
       border-bottom: 100vh solid #fcc8ba;
     }
   }
   &-title-container {
     width: 800px;
-    position: absolute;
+    position: fixed;
     z-index: 3;
     display: flex;
     padding: 50px 50px 60px 50px;
@@ -72,11 +66,12 @@
   .landing {
     &-polygon {
       &-yellow {
-        border-left: 1200px solid $main-yellow;
+        border-left: 1000px solid $main-yellow;
+        border-top: 0px solid transparent;
+        border-bottom: 600px solid transparent;
       }
       &-pink {
-        border-right: 600px solid transparent;
-        border-bottom: 100vh solid #fcc8ba;
+        border-right: 650px solid transparent;
       }
     }
     &-title-container {
@@ -91,15 +86,41 @@
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 768px) and (min-width: 320px) {
   .landing {
     &-polygon {
       &-yellow {
-        border-left: 768px solid $main-yellow;
+        border-left: 600px solid $main-yellow;
+        border-top: 0px solid transparent;
+        border-bottom: 600px solid transparent;
       }
       &-pink {
-        border-right: 480px solid transparent;
-        border-bottom: 100vh solid #fcc8ba;
+        border-right: 650px solid transparent;
+      }
+    }
+    &-title-container {
+      width: 230px;
+      padding: 20px;
+    }
+    &-subtitle {
+      font-size: 26px;
+    }
+    &-title {
+      font-size: 30px;
+    }
+  }
+}
+
+@media all and (max-width: 320px) {
+  .landing {
+    &-polygon {
+      &-yellow {
+        border-left: 430px solid $main-yellow;
+        border-top: 0px solid transparent;
+        border-bottom: 430px solid transparent;
+      }
+      &-pink {
+        border-right: 350px solid transparent;
       }
     }
     &-title-container {
