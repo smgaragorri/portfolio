@@ -18,6 +18,8 @@
   }
   &-polygon {
     &-yellow {
+      overflow-x: hidden;
+      overflow-y: hidden;
       position: absolute;
       z-index: 2;
       width: 0;
@@ -27,6 +29,8 @@
       border-bottom: 750px solid transparent;
     }
     &-pink {
+      overflow-x: hidden;
+      overflow-y: hidden;
       position: absolute;
       z-index: 1;
       width: 0px;
