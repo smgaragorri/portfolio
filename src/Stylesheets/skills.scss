@@ -4,49 +4,23 @@
     align-items: center;
     height: 100vh;
     width: 100vw;
-    position: absolute;
-    z-index: 3;
+    background-image: url('../Resources/Mobile-backgrounds/mobile-skills-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   &-container {
     display: flex;
     justify-content: center;
-    width: 80%;
+    flex-wrap: wrap;
+    align-items: center;
     height: 100%;
+    overflow: visible;
+    margin-bottom: 200px;
   }
   &-title {
     @include section-title;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     padding: 0 0 20px 0;
-  }
-  &-polygon {
-    &-yellow {
-      width: 0;
-      height: 0;
-      border-left: 300px solid transparent;
-      border-top: 300px solid transparent;
-      border-right: 300px solid $main-pink;
-      border-bottom: 300px solid $main-pink;
-      &-container {
-        display: flex;
-        position: absolute;
-        z-index: 2;
-        width: 100vw;
-        height: 100vh;
-        justify-content: flex-end;
-        align-items: flex-end;
-      }
-    }
-    &-pink {
-      display: flex;
-      position: absolute;
-      z-index: 2;
-      width: 0;
-      height: 0;
-      border-right: 10vw solid transparent;
-      border-left: 140vw solid $main-yellow;
-      border-bottom: 14vw solid transparent;
-      border-top: 0px solid transparent;
-    }
   }
 }
 .skill {
@@ -58,26 +32,24 @@
     &-container {
       display: flex;
       flex-direction: column;
-      width: 250px;
-      height: min-content;
-      margin: 0 40px 0 40px;
-      @include boxShadow;
+      width: 300px;
+      margin: 0 60px 0 60px;
     }
     &-title {
       text-transform: uppercase;
       color: black;
       font-family: $text-font;
-      font-size: 18px;
+      font-size: 24px;
       padding: 15px 0 15px 0;
       letter-spacing: 4px;
+      border: 1px solid black;
       &-container {
         text-align: center;
-        border-bottom: 2px solid rgba(128, 128, 128, 0.801);
-        width: 250px;
+        width: 300px;
         &-técnicas {
           background-color: $main-pink;
         }
-        &-soft {
+        &-soft-skills {
           background-color: $main-yellow;
         }
         &-comunicativas {
@@ -88,7 +60,9 @@
   }
   &-list {
     &-container {
-      height: 374px;
+      border: 1px solid black;
+      border-top: none;
+      height: 450px;
       background-color: white;
     }
     &-el {
@@ -101,7 +75,7 @@
       color: black;
       text-transform: capitalize;
       font-family: $text-font;
-      font-size: 20px;
+      font-size: 24px;
       padding: 15px 0 15px 0;
     }
   }
@@ -109,76 +83,63 @@
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .skills {
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
     &-page {
       @include page;
-      align-items: center;
-      height: 100vh;
-      width: 100vw;
-      position: absolute;
-      z-index: 3;
-    }
-    &-container {
-      display: flex;
-      justify-content: center;
-      width: 80%;
-      height: 100%;
     }
     &-title {
       @include section-title;
-      margin-bottom: 90px;
       padding: 0 0 20px 0;
-    }
-    &-polygon {
-      &-yellow {
-        width: 0;
-        height: 0;
-        border-left: 300px solid transparent;
-        border-top: 300px solid transparent;
-        border-right: 300px solid $main-pink;
-        border-bottom: 300px solid $main-pink;
-        &-container {
-          display: flex;
-          position: absolute;
-          z-index: 2;
-          width: 100vw;
-          height: 100vh;
-          justify-content: flex-end;
-          align-items: flex-end;
-        }
-      }
-      &-pink {
-        display: flex;
-        position: absolute;
-        z-index: 2;
-        width: 0;
-        height: 0;
-        border-right: 10vw solid transparent;
-        border-left: 140vw solid $main-yellow;
-        border-bottom: 14vw solid transparent;
-        border-top: 0px solid transparent;
-      }
+      margin-bottom: 30px;
     }
   }
   .skill {
+    &-ul {
+      flex-direction: column;
+    }
     &-el {
       &-container {
-        width: 210px;
-        margin: 0 20px 0 20px;
+        width: 500px;
+        margin: 25px 0 25px 0;
+        height: max-content;
+        @include boxShadow;
       }
       &-title {
+        font-size: 24px;
+        padding: 10px 0 10px 0;
         &-container {
-          width: 210px;
+          width: 500px;
         }
+      }
+    }
+    &-list {
+      &-container {
+        height: max-content;
+      }
+      &-el {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 5px;
+      }
+      &-li {
+        font-size: 20px;
+        padding: 0 15px 0 15px;
       }
     }
   }
 }
 
-@media all and (min-width: 320px) and (max-width: 768px) {
+@media all and (min-width: 320px) and (max-width: 767px) {
   .skills {
     &-page {
-      overflow-y: hidden;
-      overflow-x: hidden;
+      @include page;
+      height: max-content;
+      justify-content: center;
+      align-items: center;
     }
     &-title {
       @include section-title;
@@ -223,24 +184,39 @@
 }
 @media all and (max-width: 320px) {
   .skills {
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+
     &-page {
-      overflow-y: hidden;
-      overflow-x: hidden;
+      background: $main-blue;
+      @include page;
+      height: max-content;
+      justify-content: center;
+      align-items: center;
     }
     &-title {
       @include section-title;
       padding: 0 0 20px 0;
-      margin-top: 240px;
+      margin-bottom: 30px;
+      margin-top: 40px;
     }
   }
   .skill {
     &-ul {
-      flex-direction: column;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      height: 100%;
+      overflow: visible;
+      margin-bottom: 250px;
     }
     &-el {
       &-container {
         width: 240px;
         margin: 15px 0 15px 0;
+        height: max-content;
         @include boxShadow;
       }
       &-title {
@@ -253,7 +229,7 @@
     }
     &-list {
       &-container {
-        height: 75px;
+        height: max-content;
       }
       &-el {
         flex-direction: row;

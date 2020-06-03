@@ -3,12 +3,15 @@
     @include page;
     align-items: center;
     height: 100vh;
-    position: absolute;
-    z-index: 3;
+    background-image: url('../Resources/Mobile-backgrounds/mobile-back-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
+
   &-container {
     display: flex;
-    width: 70%;
+    width: 50%;
+    height: 50vh;
     justify-content: center;
     align-items: center;
   }
@@ -19,7 +22,7 @@
   &-description {
     text-align: justify;
     font-family: $main-font;
-    font-size: 22px;
+    font-size: 26px;
     letter-spacing: 5px;
     &-container {
       width: 60%;
@@ -50,44 +53,18 @@
       background: rgb(73, 67, 67);
     }
   }
-
-  &-polygon {
-    &-yellow {
-      width: 0;
-      height: 0;
-      border-left: 300px solid transparent;
-      border-top: 300px solid transparent;
-      border-right: 300px solid $main-yellow;
-      border-bottom: 300px solid $main-yellow;
-      &-container {
-        display: flex;
-        position: absolute;
-        z-index: 2;
-        width: 100vw;
-        height: 100vh;
-        justify-content: flex-end;
-        align-items: flex-end;
-      }
-    }
-    &-pink {
-      display: flex;
-      position: absolute;
-      z-index: 2;
-      width: 0;
-      height: 0;
-      border-right: 10vw solid transparent;
-      border-left: 140vw solid $main-pink;
-      border-bottom: 14vw solid transparent;
-      border-top: 0px solid transparent;
-    }
-  }
 }
 
 @media all and (max-width: 1200px) and (min-width: 768px) {
   .about-me {
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
     &-container {
       align-items: flex-start;
       width: 80%;
+      height: max-content;
     }
     &-img {
       width: 200px;
@@ -97,101 +74,57 @@
     }
     &-title {
       @include section-title;
-      margin-bottom: 100px;
     }
   }
 }
 
-@media all and (max-width: 768px) and (min-width: 320px) {
+@media all and (max-width: 767px) and (min-width: 320px) {
   .about-me {
-    &-title {
-      @include section-title;
-      margin-top: 250px;
-      @media all and (max-width: 350px) {
-        margin-top: 240px;
-        margin-bottom: 140px;
-      }
-    }
+    @include mainComponent;
     &-page {
-      display: flex;
-      overflow: scroll;
-      justify-content: flex-start;
-      align-items: center;
-      overflow-x: hidden;
+      @include page;
+      height: max-content;
     }
     &-container {
-      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      height: 100%;
+      overflow: visible;
+      margin-bottom: 200px;
       width: 100%;
     }
     &-img {
       display: none;
     }
     &-description {
-      font-size: 18px;
-      letter-spacing: 1px;
-      &-container {
-        padding: 0;
-      }
-    }
-    &-link {
-      padding: 5px 15px 5px 15px;
-      margin: 15px 0 15px 0px;
-      font-size: 18px;
-      letter-spacing: 5px;
-      &:hover {
-        color: white;
-        background: black;
-      }
-    }
-  }
-}
-
-@media all and (max-width: 320px) {
-  .about-me {
-    width: 100vw;
-    height: 100vh;
-
-    &-page {
-      @include page;
-      overflow-x: hidden;
-      height: min-content;
-    }
-
-    &-description {
-      letter-spacing: 5px;
       font-size: 14px;
-
+      letter-spacing: 2px;
       &-container {
-        overflow-y: hidden;
-        width: 80%;
-        padding: 0px 20px 50px 20px;
+        padding: 0 40px 40px 40px;
+      }
+      &-strong {
+        color: #15939e;
       }
     }
     &-title {
       @include section-title;
-      margin-top: 240px;
+      margin-bottom: 30px;
+      margin-top: 40px;
     }
-    &-polygon {
-      &-pink {
-        border-bottom: 50vw solid transparent;
+    &-link {
+      margin: 40px 0 20px 0px;
+      font-size: 16px;
+      letter-spacing: 5px;
+      background-color: rgb(211, 208, 208);
+      &-a {
+        text-decoration: none;
+        color: black;
       }
-      &-yellow {
-        width: 0;
-        height: 0;
-        border-left: 350px solid transparent;
-        border-top: 300px solid transparent;
-        border-right: 460px solid $main-yellow;
-        border-bottom: 200px solid $main-yellow;
-        &-container {
-          transform: translateY(290px);
-          display: flex;
-          position: absolute;
-          z-index: 2;
-          width: 100vw;
-          height: 100%;
-          justify-content: flex-end;
-          align-items: flex-end;
-        }
+      &:hover {
+        color: white;
+        background: rgb(73, 67, 67);
       }
     }
   }

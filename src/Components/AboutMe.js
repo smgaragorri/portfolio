@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigator from './Navigator';
+import NavigatorScroll from './NavigatorScroll';
 // import ProfilePhoto from '../Resources/profile-color.jpg';
 import ProfilePhoto from '../Resources/profile.jpeg';
 import CV from '../Resources/CV-Sara-Martin-Garagorri.pdf';
@@ -7,12 +7,8 @@ import CV from '../Resources/CV-Sara-Martin-Garagorri.pdf';
 function AboutMe() {
   return (
     <div>
-      <Navigator />
+      <NavigatorScroll />
       <div className='about-me'>
-        <div className='about-me-polygon-yellow-container'>
-          <div className='about-me-polygon-yellow'></div>
-        </div>
-        <div className='about-me-polygon-pink'></div>
         <div className='about-me-page'>
           <div>
             <h2 className='about-me-title'>sobre mí</h2>

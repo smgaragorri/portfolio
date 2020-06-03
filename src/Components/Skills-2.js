@@ -1,6 +1,6 @@
 import React from 'react';
 import Skill from './Skill-2';
-import Navigator from './Navigator';
+import NavigatorScroll from './NavigatorScroll';
 import PropTypes from 'prop-types';
 
 function Skills(props) {
@@ -11,12 +11,8 @@ function Skills(props) {
   ));
   return (
     <div>
-      <Navigator />
+      <NavigatorScroll />
       <div className='skills'>
-        <div className='skills-polygon-yellow-container'>
-          <div className='skills-polygon-yellow'></div>
-        </div>
-        <div className='skills-polygon-pink'></div>
         <div className='skills-page'>
           <div>
             <h2 className='skills-title'>habilidades</h2>
