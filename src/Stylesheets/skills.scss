@@ -2,6 +2,7 @@
   &-page {
     @include page;
     align-items: center;
+    justify-content: center;
     height: 100vh;
     width: 100vw;
     background-image: url('../Resources/Mobile-backgrounds/mobile-skills-2.png');
@@ -62,7 +63,7 @@
     &-container {
       border: 1px solid black;
       border-top: none;
-      height: 450px;
+      height: 400px;
       background-color: white;
     }
     &-el {
@@ -133,7 +134,7 @@
   }
 }
 
-@media all and (min-width: 320px) and (max-width: 767px) {
+@media all and (min-width: 320px) and (max-width: 768px) {
   .skills {
     height: 100vh;
     width: 100vw;
@@ -158,6 +159,7 @@
       height: 100%;
       overflow: visible;
       margin-bottom: 200px;
+      flex-direction: column;
     }
     &-el {
       &-container {
@@ -213,8 +215,8 @@
   .skill {
     &-ul {
       display: flex;
-      justify-content: flex-start;
       flex-wrap: wrap;
+      flex-direction: column;
       align-items: flex-start;
       height: 100%;
       overflow: visible;

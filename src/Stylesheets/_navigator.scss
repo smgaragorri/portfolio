@@ -31,6 +31,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     padding-bottom: 2px;
+    text-shadow: 2px 2px #cecdcd;
     &-container {
       display: flex;
       justify-items: flex-start;
@@ -48,10 +49,12 @@
   &-left {
     font-size: 14px;
     margin: 0 15px 0 15px;
+    text-shadow: 2px 2px #cecdcd;
   }
   &-right {
     font-size: 14px;
     margin: 0 15px 0 15px;
+    text-shadow: 2px 2px #cecdcd;
   }
 }
 

@@ -2,7 +2,7 @@
   {
     "name": "Rick & Morty - Buscador de personajes",
     "url": "https://github.com/smgaragorri/Rick-and-Morty--Buscador-de-personajes",
-    "website": "https://smgaragorri.github.io/Rick-and-Morty--Buscador-de-personajes/#/",
+    "website": "https://smgaragorri.github.io/Rick-and-Morty-Buscador-de-personajes/#/",
     "img": "rick-morty.png",
     "tags": ["react", "react-router", "javascript", "sass"],
     "month": "ABR",
@@ -21,8 +21,8 @@
   },
   {
     "name": "Portfolio",
-    "url": "https://github.com/smgaragorri/portfolio-smgaragorri",
-    "website": "https://github.com/smgaragorri/portfolio-smgaragorri",
+    "url": "https://github.com/smgaragorri/portfolio",
+    "website": "https://smgaragorri.github.io/portfolio/#/",
     "img": "portfolio.png",
     "tags": ["react", "react-router", "javascript", "sass"],
     "month": "MAY",
@@ -31,8 +31,8 @@
   },
   {
     "name": "Buscador de series",
-    "url": "https://github.com/smgaragorri/Buscador-de-series",
-    "website": "https://smgaragorri.github.io/Buscador-de-series/",
+    "url": "https://github.com/smgaragorri/series-searcher",
+    "website": "https://smgaragorri.github.io/series-searcher/",
     "img": "series-searcher.png",
     "tags": ["javascript", "sass", "dom avanzado"],
     "month": "MAR",
@@ -42,7 +42,7 @@
   {
     "name": "Maquetacion con SASS y HTML",
     "url": "https://github.com/smgaragorri/Maquetacion-SASS-y-HTML",
-    "website": "https://smgaragorri.github.io/Maquetacion-SASS-y-HTML/",
+    "website": "https://smgaragorri.github.io/Maquetacion-SASS-y-HTML/.",
     "img": "maquetacion.png",
     "tags": ["sass", "html"],
     "month": "FEB",
