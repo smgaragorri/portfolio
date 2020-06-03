@@ -32,11 +32,30 @@
     letter-spacing: 2px;
     padding-bottom: 2px;
     text-shadow: 2px 2px #cecdcd;
+    &:hover {
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-name: mouseOverLanding;
+    }
     &-container {
       display: flex;
       justify-items: flex-start;
       padding: 15px;
     }
+  }
+}
+
+@keyframes mouseOverLanding {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(2px);
+  }
+
+  100% {
+    transform: translateY(0px);
   }
 }
 
