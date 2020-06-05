@@ -12,25 +12,29 @@ function Project(props) {
             {props.author}
           </p>
         </div>
-        <div>
-          <p className='project-link'>
+        <div className='project-link-container'>
+          <div>
             <a
               className='project-link'
               href={props.url}
               target='_blank'
               rel='noopener noreferrer'
             >
+              <p className='project-code'>código</p>
               <i className='fas fa-code'></i>
             </a>
+          </div>
+          <div>
             <a
               className='project-link'
               href={props.website}
               target='_blank'
               rel='noopener noreferrer'
             >
+              <p className='project-website'>web</p>
               <i className='far fa-window-maximize'></i>
             </a>
-          </p>
+          </div>
         </div>
       </div>
       <p className='project-name'>{props.name}</p>
@@ -39,8 +43,9 @@ function Project(props) {
         <i className='project-date-separate fas fa-minus'></i>
         {props.month}
       </p>
-
-      <img className='project-img' src={img} alt={props.name}></img>
+      <a href={props.website} target='_blank' rel='noopener noreferrer'>
+        <img className='project-img' src={img} alt={props.name}></img>
+      </a>
       <div className='project-tag-container'>
         {props.tags.map((tag, index) => (
           <p key={index} className={`project-tag project-tag-${tag}`}>
