@@ -21,9 +21,15 @@
   &-container {
     display: flex;
     flex-direction: row;
+    justify-self: center;
+    align-items: center;
     margin-left: 30px;
   }
-
+  &-logo {
+    width: 60px;
+    z-index: 10;
+    padding: 10px 0 10px 20px;
+  }
   &-section {
     text-decoration: none;
     color: black;
@@ -39,7 +45,6 @@
     }
     &-container {
       display: flex;
-      justify-items: flex-start;
       padding: 15px;
     }
   }

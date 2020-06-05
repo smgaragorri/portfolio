@@ -1,6 +1,5 @@
 import React from 'react';
 import NavigatorScroll from './NavigatorScroll';
-// import ProfilePhoto from '../Resources/profile-color.jpg';
 import ProfilePhoto from '../Resources/profile.jpeg';
 import CV from '../Resources/CV-Sara-Martin-Garagorri.pdf';
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../Resources/S-final-03.png';
 
 function Navigator() {
   return (
