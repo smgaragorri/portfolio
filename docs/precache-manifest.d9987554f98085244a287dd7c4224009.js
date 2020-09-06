@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "621ecceda1d828d89fa2b13d12a602d6",
+    "revision": "a3e082630caaf3c1c2ef8fca2e55cf2c",
     "url": "./index.html"
   },
   {
-    "revision": "eaaa1c132f76738cc5db",
-    "url": "./static/css/main.9c49951a.chunk.css"
+    "revision": "226face67d59fedf22bf",
+    "url": "./static/css/main.8dd24838.chunk.css"
   },
   {
     "revision": "49fb0d183c16d33b1817",
@@ -16,20 +16,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.2edb6e4d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "eaaa1c132f76738cc5db",
-    "url": "./static/js/main.31998753.chunk.js"
+    "revision": "226face67d59fedf22bf",
+    "url": "./static/js/main.ba293912.chunk.js"
   },
   {
     "revision": "18c309d16c6c37590b3f",
     "url": "./static/js/runtime-main.3207836a.js"
   },
   {
-    "revision": "aa72bbb423f4c1fabfceaeb50d689cf2",
-    "url": "./static/media/CV-Sara-Martin-Garagorri.aa72bbb4.pdf"
+    "revision": "be911ef856b1f7216421e4974065e71f",
+    "url": "./static/media/CV-Sara-Martin-Garagorri.be911ef8.pdf"
   },
   {
     "revision": "5d25d1ff0da4d249eeab82423259fd1e",
     "url": "./static/media/S-final-03.5d25d1ff.png"
+  },
+  {
+    "revision": "0a86235f584e419e463d120356e4d2e2",
+    "url": "./static/media/contador.0a86235f.png"
   },
   {
     "revision": "88401ba927407629eeea96c14422a416",
@@ -70,5 +74,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5ad5d44bf662641bf6175059e53133a9",
     "url": "./static/media/series-searcher.5ad5d44b.png"
+  },
+  {
+    "revision": "829c670cd6e5e3ed989095bf864f1510",
+    "url": "./static/media/todoapp.829c670c.png"
   }
 ]);

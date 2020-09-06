@@ -1,12 +1,21 @@
 [
   {
     "title": "técnicas",
-    "skills": ["javascript", "html", "sass", "react", "react-router", "redux"],
+    "skills": [
+      "react",
+      "redux",
+      "angular",
+      "javascript",
+      "typescript",
+      "html",
+      "sass",
+      "react-router"
+    ],
     "img": ""
   },
   {
     "title": "soft-skills",
-    "skills": ["scrum", "agile", "teamwork", "trabajo remoto"],
+    "skills": ["scrum", "agile", "teamwork", "trabajo en remoto"],
     "img": ""
   },
   {

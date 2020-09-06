@@ -1,11 +1,28 @@
 [
   {
+    "name": "To Do App",
+    "url": "https://github.com/smgaragorri/ToDoApp-Redux-Angular",
+    "website": "https://smgaragorri.github.io/ToDoApp-Redux-Angular/",
+    "img": "todoapp.png",
+    "tags": ["angular", "redux", "typescript", "bootstrap"],
+    "year": "2020",
+    "author": "individual"
+  },
+  {
+    "name": "Contador con Angular y Redux",
+    "url": "https://github.com/smgaragorri/contador-con-redux-y-angular",
+    "website": "https://smgaragorri.github.io/contador-con-redux-y-angular/",
+    "img": "contador.png",
+    "tags": ["angular", "redux", "typescript", "bootstrap"],
+    "year": "2020",
+    "author": "individual"
+  },
+  {
     "name": "Rick & Morty - Buscador de personajes",
     "url": "https://github.com/smgaragorri/Rick-and-Morty--Buscador-de-personajes",
     "website": "https://smgaragorri.github.io/Rick-and-Morty-Buscador-de-personajes/#/",
     "img": "rick-morty.png",
     "tags": ["react", "react-router", "javascript", "sass"],
-    "month": "ABR",
     "year": "2020",
     "author": "individual"
   },
@@ -15,7 +32,6 @@
     "website": "https://smgaragorri.github.io/KoronaHoot/",
     "img": "koronahoot.png",
     "tags": ["javascript", "sass", "local storage"],
-    "month": "MAR",
     "year": "2020",
     "author": "individual"
   },
@@ -25,7 +41,6 @@
     "website": "https://smgaragorri.github.io/portfolio/#/",
     "img": "portfolio.png",
     "tags": ["react", "react-router", "javascript", "sass"],
-    "month": "MAY",
     "year": "2020",
     "author": "individual"
   },
@@ -35,7 +50,6 @@
     "website": "https://smgaragorri.github.io/series-searcher/",
     "img": "series-searcher.png",
     "tags": ["javascript", "sass", "dom avanzado"],
-    "month": "MAR",
     "year": "2020",
     "author": "individual"
   },
@@ -45,7 +59,6 @@
     "website": "https://smgaragorri.github.io/Maquetacion-SASS-y-HTML/.",
     "img": "maquetacion.png",
     "tags": ["sass", "html"],
-    "month": "FEB",
     "year": "2020",
     "author": "individual"
   },
@@ -55,7 +68,6 @@
     "website": "http://beta.adalab.es/project-promo-i-module-2-team-4-morning/",
     "img": "debugirls.png",
     "tags": ["react", "react-router", "javascript", "sass"],
-    "month": "ABR",
     "year": "2020",
     "author": "grupal"
   },
@@ -65,7 +77,6 @@
     "website": "http://beta.adalab.es/project-promo-i-module-2-team-4-morning/",
     "img": "rosetta.png",
     "tags": ["javascript", "sass", "api", "local storage"],
-    "month": "MAR",
     "year": "2020",
     "author": "grupal"
   },
@@ -75,7 +86,6 @@
     "website": "http://beta.adalab.es/project-promo-i-module-1-team-3-morning/",
     "img": "cool-coders.png",
     "tags": ["sass", "html"],
-    "month": "FEB",
     "year": "2020",
     "author": "grupal"
   }
